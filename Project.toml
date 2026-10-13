@@ -2,9 +2,6 @@ name = "PolyaMessagePassingRules"
 uuid = "2d94fc58-1726-4ac3-9db6-3d18f146cabb"
 version = "1.0.0"
 
-# The Pólya-Gamma augmented nodes, BinomialPolya and MultinomialPolya, with their algorithms.
-# GPL-3 through PolyaGammaHybridSamplers.
-
 [deps]
 BayesBase = "b4ee3484-f114-42fe-b91c-797d54a0c67e"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
@@ -16,7 +13,6 @@ MessagePassingRulesBase = "4a5b64c7-30c9-4471-82f2-bbe8464b157d"
 PolyaGammaHybridSamplers = "c636ee4f-4591-4d8c-9fae-2dea21daa433"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
-
 [compat]
 Aqua = "0.8"
 BayesBase = "1.5"
@@ -24,7 +20,7 @@ Distributions = "0.25"
 Documenter = "1"
 ExponentialFamily = "2.5"
 LinearAlgebra = "1.10"
-LogExpFunctions = "0.3"
+LogExpFunctions = "0.3, 1"
 MessagePassingRulesApproximations = "1"
 MessagePassingRulesBase = "1"
 MessagePassingRulesTestUtils = "1"
