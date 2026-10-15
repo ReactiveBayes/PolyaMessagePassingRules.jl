@@ -40,7 +40,4 @@ import Pkg; Pkg.add("PolyaMessagePassingRules")
 - Tests: `make test` runs the suite as CI does, ending with the rule-coverage gate: every rule
   must be selected by some test. `make test test_args="name:rules"` selects items by tag, by
   name or by file; `make help` lists the other targets.
-- Depends on MessagePassingRulesBase, MessagePassingRulesApproximations (Gauss–Hermite
-  cubature), BayesBase, ExponentialFamily, Distributions, LogExpFunctions, SpecialFunctions and
-  PolyaGammaHybridSamplers.
-- Licence: **GPL-3**.
+- Julia 1.10 or later. Licence: **GPL-3**.
