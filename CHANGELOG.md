@@ -6,6 +6,10 @@ All notable changes to PolyaMessagePassingRules.jl are documented here. The form
 
 ## [Unreleased]
 
+### Changed
+
+- The compat entry for LogExpFunctions admits 1.
+
 ## [1.0.0] - 2026-10-12
 
 The first release: the Pólya-Gamma augmented BinomialPolya and MultinomialPolya nodes, developed in the
